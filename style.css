@@ -1,0 +1,69 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(img/bkg-body.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+.wrap {
+    width: 960px; margin: 0 auto;
+}
+
+.container {
+    margin-top: 300px;
+}
+
+.content {
+    background: url(img/bkg-container.jpg) no-repeat;width: 900px; height: 400px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} 
+
+h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    float: left;
+}
+
+.menu {
+    float: right;
+    padding-right: 30px; 
+}
+
+.menu ul li {
+    float: right;margin-left: 30px;
+}
+
+.menu ul li a {
+    float: right;margin-left: 30px;font-size: 12px;text-decoration: none;
+}
+
+.slider {
+    border: 1px solid red;width: 800px; height: 300px; margin-left: 50px; margin-top: 15px;
+}
+
+.cb {
+    clear: both;
+} 
+
+.about {
+    width: 800px; height: 300px;
+}
+
+.about-img {
+    background: url(img/moi.jpeg) no-repeat;width: 150px; height: 150px;float: left;
+
+}
